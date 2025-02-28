@@ -1,13 +1,12 @@
 import React from "react";
+import "./NavBar.css";
 
 function NavBar() {
   return (
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
     </nav>
   )
 }
