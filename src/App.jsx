@@ -1,13 +1,16 @@
 import React from "react";
 import { useState } from 'react'
 import NavBar from './components/NavBar.jsx'
-import './App.css'
+import Header from "./components/Header.jsx";
 
 function App() {
 
   return (
     <>
-      <NavBar />
+      <header>
+        <NavBar />
+        <Header />
+      </header>
     </>
   )
 }
