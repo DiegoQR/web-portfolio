@@ -4,7 +4,7 @@ import React from "react";
 function Header () {
     return(
         <>
-            <section className="min-h-screen px-20 flex flex-col items-center justify-center gap-5 my-auto">
+            <section className="min-h-screen px-20 flex flex-col items-center mt-25 gap-5 my-auto">
                 <div>
                     <img src="../src/assets/pfp-informal.jpg" className="aspect-square object-cover w-full max-w-sm rounded-full min-w-3xs" alt="Diego pfp"/>
                 </div>
