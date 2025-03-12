@@ -34,16 +34,16 @@ function AboutMe() {
             <h2>Soft Skills</h2>
             <div className='flex flex-wrap gap-3'>
                 <Label color='bg-cyan-700' icon={<i class="fa-solid fa-user-gear"></i>}>Adaptability</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-face-smile-beam"></i>}>Integrity</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-sitemap"></i>}>Organization</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-handshake"></i>}>Team Work</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-people-group"></i>}>Cooperation</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-clock-rotate-left"></i>}>Time Management</Label>
+                <Label color='bg-red-800' icon={<i class="fa-solid fa-face-smile-beam"></i>}>Integrity</Label>
+                <Label color='bg-fuchsia-900' icon={<i class="fa-solid fa-sitemap"></i>}>Organization</Label>
+                <Label color='bg-amber-900' icon={<i class="fa-solid fa-handshake"></i>}>Team Work</Label>
+                <Label color='bg-pink-900' icon={<i class="fa-solid fa-people-group"></i>}>Cooperation</Label>
+                <Label color='bg-slate-600' icon={<i class="fa-solid fa-clock-rotate-left"></i>}>Time Management</Label>
             </div>
             <h2>Languages</h2>
             <div className='flex flex-wrap gap-3'>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-flag-usa"></i>}>English</Label>
-                <Label color='bg-slate-950' icon={<i class="fa-solid fa-flag"></i>}>Spanish</Label>
+                <Label color='bg-violet-950' icon={<i class="fa-solid fa-flag-usa"></i>}>English</Label>
+                <Label color='bg-orange-950' icon={<i class="fa-solid fa-flag"></i>}>Spanish</Label>
             </div>
         </section>
     );
