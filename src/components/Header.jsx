@@ -4,9 +4,9 @@ import React from "react";
 function Header () {
     return(
         <>
-            <section className="bg-linear-to-b from-cyan-500 to-blue-500 h-screen min-h-[600px px-20 flex flex-col items-center justify-center gap-10">
+            <section className=" h-screen min-h-[600px px-20 flex flex-col items-center justify-center gap-10">
                 <div>
-                    <img src="../src/assets/pfp-informal.jpg" className="aspect-square object-cover w-full max-w-sm rounded-full" alt="Diego pfp"/>
+                    <img src="../src/assets/pfp-informal.jpg" className="aspect-square object-cover w-full max-w-sm rounded-full min-w-3xs" alt="Diego pfp"/>
                 </div>
                 <div className="text-white space-y-6 text-center">
                     <span className="inline-block font-black ">HELLO,<span className="text-orange-400"> MY NAME IS</span></span>

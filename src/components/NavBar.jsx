@@ -1,21 +1,43 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+import clsx from "clsx";
+import React, { useState } from "react";
+import NavLink from "./NavLink";
+
 
 function NavBar() {
+  const [menu, setMenu] = useState(false);
+
+  const classHideNavbar = clsx({
+    "h-full": menu,
+    "opacity-100": menu,
+    "opacity-0": !menu,
+  });
+
+  const classButton = clsx({
+    "bg-orange": !menu,
+    "bg-red": menu,
+    "hover:h-30": !menu,
+    "hover:bg-red-300": menu,
+  });
+
   return (
-    <nav className="bg-sky-950 h-16 flex justify-between items-center px-10 text-white sticky top-0 z-50 py-5 overflow-hidden">
-      <a href="#home">
-        <h1 className="text-3xl font-bold">DiegoDev.</h1>
-      </a>
-      <div className="flex gap-10 text-lg">
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+    <>
+      <nav className="flex h-20 items-center justify-between fixed top-0 left-0 px-10 w-full bg-blue-primary z-10">
+        <a href="#home" className="w-1/2 max-w-[200px]">
+          <h1 className="text-3xl font-bold block w-full">Diego QR.</h1>
+        </a>
+        <button className={"w-20 h-20 cursor-pointer transform transition-all duration-300 rounded-b-2xl " + classButton} onClick={() => setMenu(!menu)}>
+          { menu ? <i class="fa-solid fa-circle-xmark fa-2xl"></i>: <i className="fa-solid fa-bars fa-2xl"></i> }
+        </button>
+      </nav>
+      <ul className={"fixed top-20 left-0 w-full bg-linear-to-b from-blue-primary to-transparent text-white text-center z-10 transform transition-all duration-300 ease-in-out " + classHideNavbar}>
+          <NavLink href="#home" onClick={() => setMenu(!menu)}>Home</NavLink>
+          <NavLink href="#about" onClick={() => setMenu(!menu)}>About Me</NavLink>
+          <NavLink href="#experience" onClick={() => setMenu(!menu)}>Experience</NavLink>
+          <NavLink href="#projects" onClick={() => setMenu(!menu)}>Projects</NavLink>
+          <NavLink href="#education" onClick={() => setMenu(!menu)}>Education</NavLink>
+          <NavLink href="#contact" onClick={() => setMenu(!menu)}>Contact</NavLink>
+        </ul>
+    </>
   )
 }
 
