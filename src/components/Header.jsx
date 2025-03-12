@@ -11,7 +11,7 @@ function Header () {
                 <div className="space-y-5 text-center">
                     <span className="inline-block font-black ">HELLO,<span className="text-orange"> MY NAME IS</span></span>
                     <h1 className="text-4xl font-bold drop-shadow-2xl"><span className="text-orange">DIEGO</span> QUIÑONES</h1>
-                    <p className="text-lg">
+                    <p className="text-lg text-justify">
                         I'm a <strong className="text-orange font-bold">Full stack web developer</strong> with passion
                         and knowledge to bring your webpage to life
                         if you want to start to bring your business
