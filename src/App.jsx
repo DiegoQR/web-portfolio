@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.jsx'
 import Header from "./components/Header.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Experiece from "./components/Experience.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <main>
         <AboutMe />
         <Experiece />
+        <Projects />
       </main>
     </>
   )
