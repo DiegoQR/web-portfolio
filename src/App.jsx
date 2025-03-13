@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from './components/NavBar.jsx'
 import Header from "./components/Header.jsx";
 import AboutMe from "./components/AboutMe.jsx";
+import Experiece from "./components/Experience.jsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       </header>
       <main>
         <AboutMe />
+        <Experiece />
       </main>
     </>
   )

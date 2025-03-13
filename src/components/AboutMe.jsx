@@ -3,7 +3,7 @@ import Label from './Label';
 
 function AboutMe() {
     return ( 
-        <section id='about' className='space-y-5 bg-blue-dark p-10 mt-10 rounded-2xl'>
+        <section id='about' className='space-y-5 bg-blue-dark p-10 mt-10 rounded-2xl scroll-mt-20'>
             <h1 className='border-b-2'>About Me </h1>
             <p className='text-justify font-medium'>
                 My name is Diego Alejandro Quiñones

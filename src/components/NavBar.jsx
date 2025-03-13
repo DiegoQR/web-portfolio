@@ -15,7 +15,7 @@ function NavBar() {
   const classButton = clsx({
     "bg-orange": !menu,
     "bg-red": menu,
-    "hover:h-30": !menu,
+    "hover:h-25": !menu,
     "hover:bg-red-300": menu,
   });
 
