@@ -1,12 +1,12 @@
 import React from "react";
-
+import pfp from "../assets/pfp-informal.jpg";
 
 function Header () {
     return(
         <>
             <section id="home" className="min-h-screen px-20 flex flex-col items-center mt-25 gap-5 my-auto scroll-mt-20">
                 <div>
-                    <img src="../src/assets/pfp-informal.jpg" className="aspect-square object-cover w-full max-w-sm rounded-full min-w-3xs" alt="Diego pfp"/>
+                    <img src={pfp} className="aspect-square object-cover w-full max-w-sm rounded-full min-w-3xs" alt="Diego pfp"/>
                 </div>
                 <div className="space-y-5 text-center">
                     <span className="inline-block font-black ">HELLO,<span className="text-orange"> MY NAME IS</span></span>
