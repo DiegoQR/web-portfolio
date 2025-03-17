@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Experiece from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
+import Education from "./components/Eductation.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <AboutMe />
         <Experiece />
         <Projects />
+        <Education />
       </main>
     </>
   )
