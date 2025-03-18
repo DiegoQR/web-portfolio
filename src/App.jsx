@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <main className='w-9/10 mx-auto overflow-hidden max-w-xl'>
+      <main className='w-9/10 mx-auto max-w-xl md:w-fit md:max-w-4/5'>
         <header>
           <NavBar />
           <Header />

@@ -4,11 +4,11 @@ import pfp from "../assets/pfp-informal.jpg";
 function Header () {
     return(
         <>
-            <section id="home" className="min-h-screen px-20 flex flex-col items-center mt-25 gap-5 my-auto scroll-mt-20">
-                <div>
-                    <img src={pfp} className="aspect-square object-cover w-full max-w-sm rounded-full min-w-3xs" alt="Diego pfp"/>
+            <section id="home" className="min-h-screen flex flex-col items-center justify-center gap-5 my-auto scroll-mt-20 md:flex-row md:justify-around">
+                <div className="max-w-2xs min-w-2xs md:max-w-xs lg:max-w-sm xl:max-w-md">
+                    <img src={pfp} className="aspect-square object-cover w-full rounded-full" alt="Diego pfp"/>
                 </div>
-                <div className="space-y-5 text-center">
+                <div className="space-y-5 text-center md:w-1/3">
                     <span className="inline-block font-black ">HELLO,<span className="text-orange"> MY NAME IS</span></span>
                     <h1 className="text-4xl font-bold drop-shadow-2xl"><span className="text-orange">DIEGO</span> QUIÑONES</h1>
                     <p className="text-lg text-justify">

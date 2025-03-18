@@ -3,7 +3,7 @@ import React from 'react';
 function JobExperience(props) {
     const { job } = props;
     return (<>
-        <div className='space-y-2 bg-blue-dark p-5 rounded-b-2xl shadow-2xl border-t-10 border-red'>
+        <div className='space-y-2 bg-blue-dark p-5 rounded-b-2xl shadow-2xl border-t-10 border-red w-full'>
             <h2>{job.company}</h2>
             <h3 className='font-bold'>{job.position}</h3>
             <p className='font-light text-gray-400'>{job.startDate} - {job.endDate}</p>

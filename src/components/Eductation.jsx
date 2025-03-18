@@ -29,7 +29,7 @@ function Education() {
     return (<>
         <section id="education" className='mt-10 scroll-mt-20'>
             <h1>Education</h1>
-            <div className='flex flex-col gap-5 mt-10'>
+            <div className='flex flex-col gap-5 mt-10 lg:flex-row'>
                 {educationData.map((education, index) => {
                     return <EducationCard education={education} index={index} />
                 })}
