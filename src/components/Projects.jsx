@@ -30,9 +30,11 @@ function Projects() {
     return (<>
         <section id="projects" className='mt-10 scroll-mt-20'>
             <h1>Projects</h1>
-            {dataProjects.map((project, index) => {
-                return <DevProject key={index} project={project} />;
-            })}
+            <div className='flex flex-col gap-20 mt-20 lg:flex-row lg:gap-5'>
+                {dataProjects.map((project, index) => {
+                    return <DevProject key={index} project={project} />;
+                })}
+            </div>
         </section>
     </>);
 }
