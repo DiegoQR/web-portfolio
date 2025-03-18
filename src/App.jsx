@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe.jsx";
 import Experiece from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Education from "./components/Eductation.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Experiece />
         <Projects />
         <Education />
+        <Contact />
       </main>
     </>
   )
