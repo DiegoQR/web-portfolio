@@ -1,5 +1,6 @@
 import React from "react";
 import pfp from "../assets/pfp-informal.jpg";
+import cv from "../assets/CV-DiegoQuinones.pdf";
 
 function Header () {
     return(
@@ -19,7 +20,7 @@ function Header () {
                     </p>
                     <div className="space-x-10 flex justify-center">
                         <a href="#contact" className="inline-block bg-orange py-4 px-8 rounded-xl font-bold hover:bg-orange-300 transition">Start Working!</a>
-                        <a href="#" className="inline-block bg-slate-700 py-4 px-8 rounded-xl font-bold hover:bg-slate-300 transition">Download my CV</a>
+                        <a href={cv} download className="inline-block bg-slate-700 py-4 px-8 rounded-xl font-bold hover:bg-slate-300 transition">Download my CV</a>
                     </div>
                 </div>
             </section>
