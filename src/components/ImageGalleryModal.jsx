@@ -11,10 +11,10 @@ function ImageGalleryModal(props) {
        <ReactModal
         isOpen={opened}
         onRequestClose={onClose}
-        className='bg-transparent mx-10'
-        overlayClassName='bg-black/50 fixed inset-0 flex justify-center'
+        className='relative bg-transparent mx-10 outline-none'
+        overlayClassName='fixed bg-black/50 fixed inset-0 flex justify-center items-center'
        >
-            <Carousel showThumbs={false}dynamicHeight={true} className='mt-25'>
+            <Carousel showThumbs={false} dynamicHeight={true} infiniteLoop={true}>
                 {images.map((image, index) => {
                     return <div key={index}>
                         <img src={image} alt={`Document ${index}`} />

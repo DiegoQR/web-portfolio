@@ -30,9 +30,7 @@ function Education() {
                 "Finalist in the Competitive Programing Contest sponsored by AzureSoft Digital Academy"
             ],
             documents: [
-                "https://i.imgur.com/TnsW05S.jpeg",
-                "https://i.imgur.com/p3ToAc5.png",
-                "https://i.imgur.com/M3CMHgB.jpeg"
+                "https://i.imgur.com/TnsW05S.jpeg"
             ]
         },
     ]
