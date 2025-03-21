@@ -16,8 +16,8 @@ function Contact() {
                         <li>Email: <a href="mailto:diegoqr2000@gmail.com?subject=Let%20me%20ask%20about%20your%20portfolio!&body=Hello%20Diego,%20i'm%20interested%20in%20your%20work!%20Could%20we%20discuss..." className='hover:underline text-orange cursor-pointer'>diegoqr2000@gmail.com</a></li>
                     </ul>
                     <div className='text-center space-x-20'>
-                        <a href='https://github.com/DiegoQR' target="_blank" className='hover:text-gray-300'><i class="fa-brands fa-github fa-3x"></i></a>
-                        <a href='https://www.linkedin.com/in/diego-alejandro-quiñones-rudon-b7315a224' target="_blank" className='hover:text-gray-300'><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                        <a href='https://github.com/DiegoQR' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-github fa-3x"></i></a>
+                        <a href='https://www.linkedin.com/in/diego-alejandro-quiñones-rudon-b7315a224' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-linkedin fa-3x"></i></a>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,11 @@ function Education() {
                 "Graduated with honors with an average grade of 87 out of 100",
                 "Competed at the ICPC-Bolivia 2022 regional event with the CodeRunners Team",
                 "Finalist in the Competitive Programing Contest sponsored by AzureSoft Digital Academy"
+            ],
+            documents: [
+                "https://i.imgur.com/TnsW05S.jpeg",
+                "https://i.imgur.com/p3ToAc5.png",
+                "https://i.imgur.com/M3CMHgB.jpeg"
             ]
         },
         {
@@ -23,6 +28,11 @@ function Education() {
                 "Graduated with honors with an average grade of 87 out of 100",
                 "Competed at the ICPC-Bolivia 2022 regional event with the CodeRunners Team",
                 "Finalist in the Competitive Programing Contest sponsored by AzureSoft Digital Academy"
+            ],
+            documents: [
+                "https://i.imgur.com/TnsW05S.jpeg",
+                "https://i.imgur.com/p3ToAc5.png",
+                "https://i.imgur.com/M3CMHgB.jpeg"
             ]
         },
     ]
