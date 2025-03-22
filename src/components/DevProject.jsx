@@ -16,7 +16,7 @@ function DevProject(props) {
     }
     const project = props.project;
     return (<>
-        <div className="relative flex w-full flex-col rounded-xl bg-blue-dark shadow-md">
+        <div className="relative flex w-full flex-col rounded-xl bg-blue-dark shadow-md intersect:motion-preset-rebound-right">
             <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500">
                 <img src={project.urlImage} alt="Project" className="object-cover object-top w-full h-full" />
             </div>

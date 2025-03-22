@@ -3,7 +3,7 @@ import Label from './Label';
 
 function AboutMe() {
     return ( 
-        <section id='about' className='space-y-5 bg-blue-dark p-10 mt-10 rounded-2xl scroll-mt-20'>
+        <section id='about' className='space-y-5 bg-blue-dark p-10 mt-10 rounded-2xl scroll-mt-20 intersect:motion-preset-slide-right'>
             <h1 className='border-b-2'>About Me </h1>
             <div className='flex flex-col lg:flex-row gap-10 items-center '>
                 <p className='text-justify font-medium md:text-base/10 lg:w-7/10'>
