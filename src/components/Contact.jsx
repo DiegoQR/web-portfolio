@@ -13,11 +13,11 @@ function Contact() {
                 </p>
                 <div className='space-y-10 text-xl flex flex-col lg:items-start'>
                     <ul className='space-y-5 font-black'>
-                        <li>Email: <a className='hover:underline text-orange cursor-pointer'>diegoqr2000@gmail.com</a></li>
+                        <li>Email: <a href="mailto:diegoqr2000@gmail.com?subject=Let%20me%20ask%20about%20your%20portfolio!&body=Hello%20Diego,%20i'm%20interested%20in%20your%20work!%20Could%20we%20discuss..." className='hover:underline text-orange cursor-pointer mmotion-preset-wobble'>diegoqr2000@gmail.com</a></li>
                     </ul>
                     <div className='text-center space-x-20'>
-                        <a href='https://github.com/DiegoQR' target="_blank" className='hover:text-gray-300'><i class="fa-brands fa-github fa-3x"></i></a>
-                        <a href='https://www.linkedin.com/in/diego-alejandro-quiñones-rudon-b7315a224' target="_blank" className='hover:text-gray-300'><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                        <a href='https://github.com/DiegoQR' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-github fa-3x"></i></a>
+                        <a href='https://www.linkedin.com/in/diego-alejandro-quiñones-rudon-b7315a224' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-linkedin fa-3x"></i></a>
                     </div>
                 </div>
             </div>

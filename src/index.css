@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "tailwindcss-motion";
+@plugin "tailwindcss-intersect";
 
 @theme {
     --font-roboto: "Poppins", sans-serif;
