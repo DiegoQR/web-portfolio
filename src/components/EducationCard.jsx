@@ -11,9 +11,9 @@ function EducationCard(props) {
 
     return (
         <>
-            <div className='bg-blue-dark p-10 rounded-2xl flex flex-col gap-2 intersect:motion-preset-rebound-left' key={index}>
+            <div className='bg-blue-dark p-10 rounded-2xl flex flex-col gap-2 intersect:motion-preset-rebound-left lg:w-48/100' key={index}>
                 <h2>{education.institution} - <strong>{education.title}</strong></h2>
-                <span className='text-sm text-gray-400'>{education.startDate} - {education.endDate}</span>
+                <span className='text-sm text-gray-400'>{education.duration}</span>
                 <ul className='list-disc list-inside'>
                     {education.achivements.map((achivement, index) => {
                         return <li key={index}>{achivement}</li>
