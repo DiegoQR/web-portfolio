@@ -16,7 +16,7 @@ function DevProject(props) {
     }
     const project = props.project;
     return (<>
-        <div className="relative flex w-full flex-col rounded-xl bg-blue-dark shadow-md intersect:motion-preset-rebound-right">
+        <div className="relative flex w-full flex-col rounded-xl bg-blue-dark shadow-md intersect:motion-preset-rebound-right lg:w-30/100 ">
             <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500">
                 <img src={project.urlImage} alt="Project" className="object-cover object-top w-full h-full" />
             </div>
@@ -32,9 +32,9 @@ function DevProject(props) {
                         return <Label key={index} color={techLabelsDictionary[technology].color} icon={techLabelsDictionary[technology].icon}>{technology}</Label>
                     })}
                 </div>
-                <div className='flex gap-3 mt-10 justify-center'>
-                    {project.urlProject !==  undefined ? <a href={project.urlProject} className='group'><i className="fa-solid fa-laptop-code fa-2xl group-hover:text-gray-300"></i></a> : <></>}
-                    {project.urlRepository !== undefined ? <a href={project.urlRepository} className='group'><i className="fa-brands fa-github fa-2xl group-hover:text-gray-300"></i></a> : <></>}
+                <div className='flex gap-3 mt-10 justify-center items-center'>
+                    {project.urlProject !==  undefined ? <a href={project.urlProject} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><i className="fa-solid fa-laptop-code fa-2x"></i></a> : <></>}
+                    {project.urlRepository !== undefined ? <a href={project.urlRepository} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><i className="fa-brands fa-github fa-2xl"></i></a> : <></>}
                 </div>
             </div>
             <div className="p-6 pt-0">

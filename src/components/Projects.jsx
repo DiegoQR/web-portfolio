@@ -25,11 +25,26 @@ function Projects() {
             technologies: ["HTML", "Python", "Git"],
             urlRepository: "https://github.com/DiegoQR/ProyectoDeGrado.git",
         },
+        {
+            urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1742931500/web-portfolio/projects-screenshots/Imagen_de_WhatsApp_2025-03-25_a_las_15.37.24_af4251ec_gawzro.jpg",
+            title: "Aqui Estoy Social Network",
+            description: "A social network for people with pets so they can share photos, videos and experiences with their pets, as well as find other people with pets and pet-friendly places.",
+            technologies: ["HTML","CSS", "React",".NET","MongoDB", "Git"],
+            urlRepository: "https://github.com/CarolinaAdrianaHidalgoAvila/AQUI_ESTOY_FNO.git",
+        },
+        {
+            urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1742936636/web-portfolio/projects-screenshots/Captura_de_pantalla_2025-03-25_165638_afhiwv.png",
+            title: "TRUEXEND Main Page",
+            description: "Main page of truextend which i worked on in my intership, using .NET and Orchard as CSM to manage the diferent posts and pages.",
+            technologies: ["HTML","CSS",".NET", "Git"],
+            urlProject: "https://truextend.com",
+            urlRepository: "https://github.com/CarolinaAdrianaHidalgoAvila/AQUI_ESTOY_FNO.git",
+        },
     ]
     return (<>
         <section id="projects" className='mt-10 scroll-mt-20'>
             <h1>Projects</h1>
-            <div className='flex flex-col gap-20 mt-20 lg:flex-row lg:gap-5'>
+            <div className='flex flex-col flex-wrap mt-20 gap-10 lg:flex-row lg:gap-x-5 lg:gap-y-10 justify-center'>
                 {dataProjects.map((project, index) => {
                     return <DevProject key={index} project={project} />;
                 })}
