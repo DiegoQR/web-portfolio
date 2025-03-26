@@ -15,7 +15,7 @@ function Projects() {
             title: "Web Portfolio",
             description: "This is my personal web portfolio, where I showcase my skills and projects I worked on, as well as experience, education and contact, made with React and tailwind CSS.",
             technologies: ["HTML", "CSS", "React", "Git"],
-            urlProject: "https//google.com",
+            urlProject: "https://diegoqr-portfolio.dev",
             urlRepository: "https://github.com/DiegoQR/web-portfolio.git",
         },
         {
@@ -38,7 +38,6 @@ function Projects() {
             description: "Main page of truextend which i worked on in my intership, using .NET and Orchard as CSM to manage the diferent posts and pages.",
             technologies: ["HTML","CSS",".NET", "Git"],
             urlProject: "https://truextend.com",
-            urlRepository: "https://github.com/CarolinaAdrianaHidalgoAvila/AQUI_ESTOY_FNO.git",
         },
     ]
     return (<>
