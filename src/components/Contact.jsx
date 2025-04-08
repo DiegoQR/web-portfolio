@@ -17,7 +17,7 @@ function Contact() {
                     </ul>
                     <div className='text-center space-x-20'>
                         <a href='https://github.com/DiegoQR' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-github fa-3x"></i></a>
-                        <a href='https://www.linkedin.com/in/diego-alejandro-quiñones-rudon-b7315a224' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-linkedin fa-3x"></i></a>
+                        <a href='https://www.linkedin.com/in/diego-alejandro-quinones-rudon' target="_blank" className='hover:text-gray-300'><i className="fa-brands fa-linkedin fa-3x"></i></a>
                     </div>
                 </div>
             </div>
