@@ -10,6 +10,7 @@ function NavBar() {
     "h-full": menu,
     "opacity-100": menu,
     "opacity-0": !menu,
+    "invisible": !menu,
   });
 
   const classButton = clsx({
