@@ -20,25 +20,17 @@ export const educationData = [
     },
     {
         institution: "Codigo Facilito",
-        title: "Professional Node.js Course",
-        duration: "February 2025",
+        title: "Professional Multiple Courses",
+        duration: "February 2025 - Present",
         achievements: [
-            "Learned about the basics of Node.js as well as how DB integration works, error handling, data validation and security",
-            "Built a backend project using Node.js and Express to manage post from a social network",
+            "As my desire to keep learning, improve my skills and know better the world of Fullstack development, I took multiple courses in the 'Codigo Facilito' platform.",
+            "Between the courses I took are brand new technologies i am learning such as Node.js, Github Actions, Tailwind CSS, Typescript, and many more to come",
         ],
         documents: [
-            "https://res.cloudinary.com/dho0rif9d/image/upload/v1742662313/web-portfolio/education-documents/Certificado-CursoNodejs_rmn3vd.jpg"
-        ]
-    },
-    {
-        institution: "Codigo Facilito",
-        title: "Github Actions Course",
-        duration: "February 2025",
-        achievements: [
-            "Built a GitHub Actions workflow to automatically test, build, and deploy a API project",
-        ],
-        documents: [
-            "https://res.cloudinary.com/dho0rif9d/image/upload/v1742662381/web-portfolio/education-documents/Curso-GithubActions_dkxesx.jpg"
+            "https://res.cloudinary.com/dho0rif9d/image/upload/v1742662313/web-portfolio/education-documents/Certificado-CursoNodejs_rmn3vd.jpg",
+            "https://res.cloudinary.com/dho0rif9d/image/upload/v1742662381/web-portfolio/education-documents/Curso-GithubActions_dkxesx.jpg",
+            "https://res.cloudinary.com/dho0rif9d/image/upload/v1744322882/web-portfolio/education-documents/Certificado_-_Curso_a_fondo_de_Tailwind_CSS_page-0001_pjeixp.jpg",
+            "https://res.cloudinary.com/dho0rif9d/image/upload/v1744322943/web-portfolio/education-documents/Certificado_-_Curso_Profesional_de_Typescript_1__page-0001_nvluvf.jpg"
         ]
     },
     {
