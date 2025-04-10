@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { useDisclosure } from '@mantine/hooks';
-import { Button } from '@mantine/core';
 
 import ImageGalleryModal from './ImageGalleryModal';
 
@@ -15,8 +14,8 @@ function EducationCard(props) {
                 <h2>{education.institution} - <strong>{education.title}</strong></h2>
                 <span className='text-sm text-gray-400'>{education.duration}</span>
                 <ul className='list-disc list-inside'>
-                    {education.achivements.map((achivement, index) => {
-                        return <li key={index}>{achivement}</li>
+                    {education.achievements.map((achievements, index) => {
+                        return <li key={index}>{achievements}</li>
                     })}
                 </ul>
                 <a onClick={open} className='bg-orange px-5 py-2.5 rounded-2xl font-bold space-x-3 mt-5 w-fit hover:bg-orange-200 cursor-pointer'>
