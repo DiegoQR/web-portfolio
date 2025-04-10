@@ -20,8 +20,8 @@ function Header () {
                     <p className="text-lg text-justify">
                         I'm a <strong className="text-orange font-bold">Full stack web developer</strong> with passion
                         and knowledge to bring your webpage to life
-                        if you want to start to bring your business
-                        to the internet you can count with my help 😊
+                        if you want to start to bring real value to your business
+                        and go to the next level you can count with my help 😊
                     </p>
                     <div className="flex justify-center gap-5">
                         <a href="#contact" className="inline-block bg-orange py-4 px-8 rounded-xl font-bold hover:bg-orange-300 transition motion-preset-confetti">Start Working!</a>

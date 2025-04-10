@@ -19,8 +19,8 @@ function AboutMe() {
                         My hobbies are the music, drawing, 
                         videogames and every geek theme, i also have
                         knowledge many other technologies such as
-                        Quality Assurance, Artificial Intelligence, 
-                        Algorithm analysis and data science. 
+                        Quality Assurance, DevOps, Artificial Intelligence, 
+                        Algorithm analysis, data science and many other more. 
                     </p>
                 </section>
                 <div className='space-y-4 lg:w-full'>
