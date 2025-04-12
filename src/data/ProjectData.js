@@ -7,12 +7,12 @@ export const dataProjects = [
         urlRepository: "https://github.com/UCB-TallerDeDesarrollo/NCV.git",
     },
     {
-        urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1742871250/web-portfolio/projects-screenshots/Captura_de_pantalla_2025-03-24_225214_athm5k.png",
-        title: "Web Portfolio",
-        description: "This is my personal web portfolio, where I showcase my skills and projects I worked on, as well as experience, education and contact, made with React and tailwind CSS. Where i learned how to use tailwind CSS and the correct way to mantine a web page",
+        urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1744420174/web-portfolio/projects-screenshots/screenshot-ticket-generator_vukygt.png",
+        title: "Conference Ticket Generator",
+        description: "This is a solution to the Conference ticket generator challenge on Frontend Mentor. It is a simple web application that allows users to generate tickets for a conference. The application is built using HTML/CSS with React for statement and interactive management and it provides a user-friendly interface with the help of Tailwind CSS for creating and customizing tickets.",
         technologies: ["HTML", "CSS", "React", "Git"],
-        urlProject: "https://diegoqr-portfolio.dev",
-        urlRepository: "https://github.com/DiegoQR/web-portfolio.git",
+        urlProject: "https://conference-ticket-generator-challenge.netlify.app",
+        urlRepository: "https://github.com/DiegoQR/conference-ticket-generator-main.git",
     },
     {
         urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1742873033/web-portfolio/projects-screenshots/Captura_de_pantalla_2025-03-24_232218_mddgun.png",
