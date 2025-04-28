@@ -4,7 +4,7 @@ export const educationData = [
         title: "Professional Degree in Software Systems Engineering",
         duration: "February 2019 - November 2023",
         achievements: [
-            "Graduated with honors with an average grade of 87 out of 100",
+            "Graduated with honors with an GPA  of 87.33 from a 100-point scale or a GPA of 4.37 on a 5.0 scale.",
             "Competed at the ICPC-Bolivia 2022 regional contest with the CodeRunners Team",
             "Finalist in the Competitive Programming Contest sponsored by AzureSoft Digital Academy"
         ],
