@@ -13,7 +13,8 @@ function AboutMe() {
                         knowledge in web development</strong> in backend and
                         frontend graduated from the <strong>Bolivian 
                         Catholic University of "San Pablo" with an 
-                        excellence degree. </strong> 
+                        excellence degree and a GPA  of 87.33 from a 100-point 
+                        scale or a GPA of 4.37 on a 5.0 scale. </strong> 
                     </p>
                     <p>
                         My hobbies are the music, drawing, 
