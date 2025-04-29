@@ -18,10 +18,9 @@ function Header () {
                     <span className="inline-block font-black ">HELLO,<span className="text-orange"> MY NAME IS...</span></span>
                     <h1 className="text-4xl font-bold drop-shadow-2xl motion-preset-typewriter-[14] motion-duration-6000 motion-delay-500"><span className="text-orange">DIEGO</span> QUIÑONES</h1>
                     <p className="text-lg text-justify">
-                        I'm a <strong className="text-orange font-bold">Full stack web developer</strong> with passion
-                        and knowledge to bring your webpage to life
-                        if you want to start to bring real value to your business
-                        and go to the next level you can count with my help 😊
+                    I'm a <strong className="text-orange font-bold">Full-Stack Web Developer</strong> with a passion for turning ideas into dynamic, 
+                    functional websites. Whether you're looking to elevate your online presence, drive real value to your business, or take your project 
+                    to the next level, I've got the skills and dedication to bring your vision to life. Let's build something amazing together! 😊
                     </p>
                     <div className="flex justify-center gap-5">
                         <a href="#contact" className="inline-block bg-orange py-4 px-8 rounded-xl font-bold hover:bg-orange-300 transition motion-preset-confetti">Start Working!</a>
