@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from './Label';
+import { techData, softSkills, languages } from '../data/TechData';
 
 function AboutMe() {
     return ( 
@@ -27,30 +28,33 @@ function AboutMe() {
                 <div className='space-y-4 lg:w-full'>
                     <h2>Tech Skills</h2>
                     <div className='flex flex-wrap gap-3'>
-                        <Label color='bg-red-500' icon={<i className="fa-brands fa-html5"></i>}>HTML</Label>
-                        <Label color='bg-blue-500' icon={<i className="fa-brands fa-css3"></i>}>CSS</Label>
-                        <Label color='bg-yellow-500' icon={<i className="fa-brands fa-js"></i>}>JavaScript</Label>
-                        <Label color='bg-blue-700' icon={<i className="fa-brands fa-react"></i>}>React</Label>
-                        <Label color='bg-teal-500' icon={<i className="fa-brands fa-node"></i>}>Node</Label>
-                        <Label color='bg-amber-600' icon={<i className="fa-brands fa-python"></i>}>Python</Label>
-                        <Label color='bg-purple-500' icon={<i className="fa-solid fa-globe"></i>}>.NET</Label>
-                        <Label color='bg-lime-500' icon={<i className="fa-solid fa-database"></i>}>SQL</Label>
-                        <Label color='bg-green-500' icon={<i className="fa-solid fa-server"></i>}>MongoDB</Label>
-                        <Label color='bg-slate-950' icon={<i className="fa-brands fa-square-git"></i>}>Git</Label>
+                        {
+                            Object.entries(techData).map(([key, value]) => (
+                                <Label key={key} color={value.color} icon={value.icon}>
+                                    {key}
+                                </Label>
+                            ))
+                        }
                     </div>
                     <h2>Soft Skills</h2>
                     <div className='flex flex-wrap gap-3'>
-                        <Label color='bg-cyan-700' icon={<i className="fa-solid fa-user-gear"></i>}>Adaptability</Label>
-                        <Label color='bg-red-800' icon={<i className="fa-solid fa-face-smile-beam"></i>}>Integrity</Label>
-                        <Label color='bg-fuchsia-900' icon={<i className="fa-solid fa-sitemap"></i>}>Organization</Label>
-                        <Label color='bg-amber-900' icon={<i className="fa-solid fa-handshake"></i>}>Team Work</Label>
-                        <Label color='bg-pink-900' icon={<i className="fa-solid fa-people-group"></i>}>Cooperation</Label>
-                        <Label color='bg-slate-600' icon={<i className="fa-solid fa-clock-rotate-left"></i>}>Time Management</Label>
+                        {
+                            Object.entries(softSkills).map(([key, value]) => (
+                                <Label key={key} color={value.color} icon={value.icon}>
+                                    {key}
+                                </Label>
+                            ))
+                        }
                     </div>
                     <h2>Languages</h2>
                     <div className='flex flex-wrap gap-3'>
-                        <Label color='bg-violet-950' icon={<i className="fa-solid fa-flag-usa"></i>}>English</Label>
-                        <Label color='bg-orange-950' icon={<i className="fa-solid fa-flag"></i>}>Spanish</Label>
+                        {
+                            Object.entries(languages).map(([key, value]) => (
+                                <Label key={key} color={value.color} icon={value.icon}>
+                                    {key}
+                                </Label>
+                            ))
+                        }
                     </div>
                 </div>
             </div>
