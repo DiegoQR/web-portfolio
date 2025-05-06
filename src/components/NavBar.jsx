@@ -1,7 +1,8 @@
 import clsx from "clsx";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoCloseCircle } from "react-icons/io5";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -26,8 +27,8 @@ function NavBar() {
         <a href="#home" className="w-1/2 max-w-[200px]">
           <h1 className="text-3xl font-bold block w-full">Diego QR.</h1>
         </a>
-        <button className={"w-20 h-20 cursor-pointer transform transition-all duration-300 rounded-b-2xl " + classButton} onClick={() => setMenu(!menu)}>
-          { menu ? <i class="fa-solid fa-circle-xmark fa-2xl"></i>: <i className="fa-solid fa-bars fa-2xl"></i> }
+        <button className={"w-20 h-20 cursor-pointer transform transition-all duration-300 rounded-b-2xl flex items-center justify-center " + classButton} onClick={() => setMenu(!menu)}>
+          { menu ? <IoCloseCircle size="1.5em"/>: <GiHamburgerMenu size="1.5em" /> }
         </button>
       </nav>
       <ul className={"fixed top-20 left-0 w-full bg-linear-to-b from-blue-primary to-transparent text-white text-center z-10 transform transition-all duration-300 ease-in-out " + classHideNavbar}>

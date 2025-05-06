@@ -1,6 +1,9 @@
 import React from 'react';
 import Label from './Label';
 import { techData as techLabelsDictionary } from '../data/TechData.jsx';
+import { TbWorld } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
+
 
 function DevProject(props) {
 
@@ -24,8 +27,8 @@ function DevProject(props) {
                     })}
                 </div>
                 <div className='flex gap-3 mt-10 justify-center items-center'>
-                    {project.urlProject !==  undefined ? <a href={project.urlProject} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><i className="fa-solid fa-laptop-code fa-2x"></i></a> : <></>}
-                    {project.urlRepository !== undefined ? <a href={project.urlRepository} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><i className="fa-brands fa-github fa-2xl"></i></a> : <></>}
+                    {project.urlProject !==  undefined ? <a href={project.urlProject} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><TbWorld size="1.7em" /></a> : <></>}
+                    {project.urlRepository !== undefined ? <a href={project.urlRepository} className='rounded-2xl p-2 hover:text-gray-900 hover:bg-amber-50 transition' target='_blank'><FaGithub size="1.7em" /></a> : <></>}
                 </div>
             </div>
             <div className="p-6 pt-0">

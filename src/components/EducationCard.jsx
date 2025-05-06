@@ -3,6 +3,7 @@ import React from 'react';
 import { useDisclosure } from '@mantine/hooks';
 
 import ImageGalleryModal from './ImageGalleryModal';
+import { FaFileAlt } from "react-icons/fa";
 
 function EducationCard(props) {
     const { education, index } = props;
@@ -19,7 +20,7 @@ function EducationCard(props) {
                     })}
                 </ul>
                 <a onClick={open} className='bg-orange px-5 py-2.5 rounded-2xl font-bold space-x-3 mt-5 w-fit hover:bg-orange-200 cursor-pointer'>
-                    <i className="fa-solid fa-file"></i>
+                    <FaFileAlt className='inline' />
                     <span>Docs</span>
                 </a>
             </div>
