@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -8,9 +8,9 @@ function Contact() {
             <h1>Contact</h1>
             <div className='flex flex-col gap-5 items-center justify-between lg:flex-row'>
                 <p className='lg:w-3/5'>
-                    If you're looking for a <strong>dedicated partner to help elevate your business and 
-                    achieve your goals</strong>, I'd love to collaborate with you. Whether you need strategic guidance, 
-                    creative solutions, or innovative ideas. Let's work together to take your business to the 
+                    If you&apos;re looking for a <strong>dedicated partner to help elevate your business and 
+                    achieve your goals</strong>, I&apos;d love to collaborate with you. Whether you need strategic guidance, 
+                    creative solutions, or innovative ideas. Let&apos;s work together to take your business to the 
                     next level! Feel free to reach out to me to discuss how we can make it happen.
                 </p>
                 <div className='space-y-10 text-xl flex flex-col lg:items-start'>

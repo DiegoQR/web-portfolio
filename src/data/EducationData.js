@@ -5,8 +5,8 @@ export const educationData = [
         duration: "February 2019 - November 2023",
         achievements: [
             "Graduated with honors with an GPA  of 87.33 from a 100-point scale or a GPA of 4.37 on a 5.0 scale.",
-            "Competed at the ICPC-Bolivia 2022 regional contest with the CodeRunners Team",
-            "Finalist in the Competitive Programming Contest sponsored by AzureSoft Digital Academy"
+            "Finalist in the Competitive Programming Contest sponsored by AzureSoft Digital Academy in Cochabamba.",
+            "Competed at the ICPC-Bolivia 2022 regional event with the CodeRunners Team "
         ],
         documents: [
             "https://res.cloudinary.com/dho0rif9d/image/upload/v1742658625/web-portfolio/education-documents/Titulo-provision_nacional_ystwhm.jpg",
