@@ -7,6 +7,14 @@ export const dataProjects = [
         urlRepository: "https://github.com/UCB-TallerDeDesarrollo/NCV.git",
     },
     {
+        urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1745970122/web-portfolio/projects-screenshots/page-preview_ke4y07.png",
+        title: "IP Address Tracker",
+        description: "This was a challenge to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, I'm using the IP Geolocation API 'ipgeolocation.io' . To generate the map, I'm using LeafletJS. And for the styling of the page I'm using Tailwind CSS.",
+        technologies: ["HTML", "CSS", "Typescript", "React", "Git"],
+        urlProject: "https://ip-address-tracket.netlify.app",
+        urlRepository: "https://github.com/DiegoQR/ip-address-tracker.git",
+    },
+    {
         urlImage: "https://res.cloudinary.com/dho0rif9d/image/upload/v1744420174/web-portfolio/projects-screenshots/screenshot-ticket-generator_vukygt.png",
         title: "Conference Ticket Generator",
         description: "This is a solution to the Conference ticket generator challenge on Frontend Mentor. It is a simple web application that allows users to generate tickets for a conference. The application is built using HTML/CSS with React for statement and interactive management and it provides a user-friendly interface with the help of Tailwind CSS for creating and customizing tickets.",

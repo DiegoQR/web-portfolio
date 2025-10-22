@@ -5,10 +5,10 @@ export const dataJobs = [
         startDate: "February 2023",
         endDate: "November 2023",
         achievements: [
-            "Developed and maintained company website using HTML, CSS, C#, Javascript and Orchard with a team of other developers.",
-            "Created database models and API for dynamic web applications.",
-            "Collaborated with developers, designers and QA to put in production software.",
-            "Troubleshooted and resolved bugs within the main site of the company."
+            "Designed and developed a new service in a website to administrate and visualize the employment resources of the company.",
+            "Created and modeled a database and a RESTful API for the service using good code practice and agile methodology improving the development cycle in two weeks.",
+            "Collaborated with a team of developers, designers and QA to deliver valuable and significant changes to the product.",
+            "Troubleshooted and resolved bugs within the main site of the company improving the efficiency and UI experience."
         ]
     },
     {
@@ -17,9 +17,9 @@ export const dataJobs = [
         startDate: "November 2024",
         endDate: "Present",
         achievements: [
-            "The first few months I worked in customer service and product sales. Later I was assigned to develop a management system for improving the business process.",
-            "Started a development from scratch to build a  website for a resource management with database design, requirements engineering and UI design.",
-            "Developed from scratch a website for a resource management using SQL database, .NET with MVC, React and Tailwind  as technology stack"
+            "The first few months I worked in customer service and product sales. Later I was assigned to develop a management system for improving the product delivery process.",
+            "Started a development from scratch to build a  website for a resource management with database design, requirements engineering and UI design",
+            "Developed the first prototype of a RESTful API as a sole developer documenting and implementing good code practices with the objective to reduce mistakes in the deliveries by 80% less."
         ]
     },
 ]
