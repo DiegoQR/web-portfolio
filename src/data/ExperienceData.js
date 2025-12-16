@@ -2,7 +2,7 @@ export const dataJobs = [
     {
         company: "TRUEXTEND",
         position: "Internship",
-        startDate: "February 2023",
+        startDate: "August 2023",
         endDate: "November 2023",
         achievements: [
             "Designed and developed a new service in a website to administrate and visualize the employment resources of the company.",
