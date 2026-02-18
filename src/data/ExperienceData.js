@@ -13,13 +13,13 @@ export const dataJobs = [
     },
     {
         company: "One Click",
-        position: "Developer",
-        startDate: "November 2024",
+        position: "Full Stack Developer",
+        startDate: "June 2024",
         endDate: "Present",
         achievements: [
             "The first few months I worked in customer service and product sales. Later I was assigned to develop a management system for improving the product delivery process.",
             "Started a development from scratch to build a  website for a resource management with database design, requirements engineering and UI design",
-            "Developed the first prototype of a RESTful API as a sole developer documenting and implementing good code practices with the objective to reduce mistakes in the deliveries by 80% less."
+            "Developed the first prototype of a RESTful API with Express documenting and implementing good code practices with the objective to reduce mistakes in the deliveries by 80% less."
         ]
     },
 ]
