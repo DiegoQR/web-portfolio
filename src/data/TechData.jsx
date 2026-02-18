@@ -9,6 +9,8 @@ import {
     DiDatabase,
     DiMongodb,
     DiGit,
+    DiPhp,
+    DiAngularSimple,
 } from "react-icons/di";
 import { 
     SiDotnet,
@@ -41,6 +43,8 @@ const techData = {
     ".NET": { icon: <SiDotnet />, color: "bg-purple-500"},
     "SQL": { icon: <DiDatabase />, color: "bg-lime-500"},
     "MongoDB": { icon: <DiMongodb />, color: "bg-green-500"},
+    "Laravel": { icon: <DiPhp />, color: "bg-indigo-500"},
+    "Angular": { icon: <DiAngularSimple />, color: "bg-red-700"},
     "Git": { icon: <DiGit />, color: "bg-slate-950"},
 }
 
